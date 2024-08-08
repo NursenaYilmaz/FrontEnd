@@ -1,0 +1,72 @@
+body{
+   background-color: #F3F3F3;
+}
+.navbar {
+    height:100px ;
+    z-index: 1000;
+    
+ }
+ .btn{
+     margin-right:8%;
+     border-radius:15px;
+ }
+ ul li a{
+      letter-spacing: 2px;
+      word-spacing: 5px;
+ 
+ }
+ nav span{
+     padding-left:20px;
+     padding-right: 30px;
+     font-family:Arial, Helvetica, sans-serif,bold;
+ }
+.container1{
+   position:relative;
+   width:100%;
+   height: auto;
+   overflow-y:hidden;
+ }
+ .gyazi{
+    margin-left:50px;
+    margin-top:10px;
+    position: relative;
+    width:100%;
+    height: auto;
+ }
+ #carouselExampleControls{
+   /* width: 900px;  Carousel genişliği  
+   height: 700px;     Carousel yüksekliği  */
+   position: relative;
+ }
+ .carousel-inner img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover; /*Resmin içeriği kapsayıcıya sığacak şekilde ayarlanır */
+}
+.btn-buy{
+   color:white;
+   background-color:#A7AFC1;
+   border:none;
+}
+.buy-rent{
+   margin-left:50px;
+   margin-top:50px;
+} 
+.card{
+   margin-top:200px;
+   margin-left:60px;
+} 
+.property-listing{
+   display: flex;
+  flex-wrap: wrap;
+}
+.property-label{
+   flex: 1 0 25%;
+  box-sizing: border-box;
+  padding: 10px;
+}
+ /* .col-sm-4{
+   width:200px;
+   margin-top:20px;
+   margin-left:20px;
+}  */

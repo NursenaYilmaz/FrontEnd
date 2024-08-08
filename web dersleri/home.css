@@ -1,0 +1,334 @@
+body{
+    background-color: #F3F3F3;
+}
+.navbar {
+    width: 100%;
+    height:15%;
+    position:absolute;
+    z-index: 1000;
+ }
+ .btn{
+     margin-right:8%;
+  
+ }
+ ul li a{
+      letter-spacing: 2px;
+      word-spacing: 5px;
+ 
+ }
+ nav span{
+     padding-left:20px;
+     padding-right: 30px;
+     font-family:Arial, Helvetica, sans-serif,bold;
+ }
+ .container5 {
+    /* width: 100%;
+    height:auto;
+    text-align: center;
+    color:white; */
+    width:100%;
+    height: auto;
+    overflow-x: hidden;
+    position: relative;
+ }
+ .giris{
+  width: 100%;
+  height: auto;
+  margin-left:0px;
+  margin-right: 0px;
+  overflow-x:hidden;
+ }
+ .header h1{
+    position:absolute; 
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    color:white;
+    z-index:1000;
+ }
+ .header h3{
+    position:absolute; 
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    color:white;
+    z-index:1000;
+ }
+ .search-box{
+    position:absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+ }
+ .container2{
+    text-align: center;
+    margin-top:80px;
+    margin-bottom:50px;
+ }
+ .container1{
+    width:100%;
+    overflow-x: hidden;
+    position:relative;
+    overflow-y:hidden;
+}
+.property-card {
+    position: relative;
+    margin: 15px;
+}
+.property-card img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+.property-card .btn-group {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.property-card .card-body {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: white;
+}
+.property-card:hover .card-img-top {
+    transform: scale(1.1);
+  }
+
+
+/* .card4{
+    position:relative;
+    display:flex;
+    margin-left:110px;
+}
+.card4 img{
+    width:60%;
+}
+.card-body ul{
+   color:gray;
+   list-style-type:none;
+} */
+
+.container3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    margin-left:110px;
+    margin-right:110px;
+    background-color: white;
+}
+.text-section {
+    width: 50%;
+    padding: 20px;
+}
+.image-section {
+    width: 40%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.image-section img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Resmin div'e tam sığmasını sağlar */
+}
+.btn2 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: orange;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.text-section ul {
+    list-style-type: none; /* Nokta işaretlerini kaldırmak için */
+    padding: 0;
+}
+.text-section ul li {
+    margin: 5px 0;
+}
+.text-section h2 {
+    color: #777;
+}
+.container4 {
+    display: flex;
+    justify-content: space-around; /* Sütunlar arasındaki boşluğu ayarlar */
+    padding: 50px 20px;
+    background-color:white; /* Arka plan rengini ayarlar */
+    margin-top:80px;
+}
+.column {
+    text-align: center;
+    width: 30%;
+}
+.column img {
+    width: 40px; /* İkon boyutunu ayarlar */
+    height: auto;
+}
+.column h3 {
+    color: #333;
+}
+.column p {
+    color: #666;
+}
+.column a {
+    display: inline-block;
+    color: #FF8C00;
+    text-decoration: none;
+    margin-top: 10px;
+}
+.column a:hover {
+    text-decoration: underline;
+}
+.card-deck{
+   margin-top:60px;
+}
+.card img{
+    transition: transform 0.3s ease;
+}
+.card:hover .card-img-top{
+    transform: scale(1.1);
+}
+.pop {
+   left:120px;
+   margin-top:90px;
+}
+.card .card-body {
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+    color: white;
+}
+.footer{
+    display: flex;
+    justify-content: space-around; /* Elemanlar arasındaki boşluğu ayarlar */
+    align-items: center; /* Elemanların dikeyde ortalanmasını sağlar */
+    padding: 20px;
+    background-color: white;
+    margin-top:80px;
+    width:100%;
+}
+.footer .column {
+    text-align: center;
+    flex: 1;
+    padding: 0 10px;
+}
+.footer .column:not(:last-child) {
+    border-right: 1px solid #E2E3E6; /* Dikey çizgiler */
+}
+
+
+
+
+
+
+ 
+/* .container4{
+    position:absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+}
+.container4 h1 {
+    margin: 0;
+    font-size: 50px;
+    color: #fff;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+} 
+ input[type=text], select,#ara{
+    width: 90%;
+    padding: 12px 20px;
+    /* margin-top:0px; 
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    
+}
+    
+ .container{
+    /* position:absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+    /* display: flex;  */
+    /* width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative; 
+    width:100%;
+    height: auto;
+    overflow-x: hidden;
+    position: relative;
+} 
+ #ara{
+    background-color:orange;
+    color:white;
+    text-decoration:solid;
+} 
+#blinking-text {
+    font-size: 40px;
+    color:white;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* background: rgba(0, 0, 0, 0); Yarı saydam arka plan 
+    padding: 20px;
+    animation: blink 2s infinite; 
+    
+}
+h5{
+    font-size:20px;
+    color:white;
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+}
+#top{
+     margin-left:40%;
+     margin-top:60px;
+} 
+ .container1{
+    width:100%;
+    margin-left:70px;
+    margin-top:30px;
+    padding-bottom: 0px;
+}
+
+.container1 .cardh {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .card-img-top {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+  }
+  
+  .cardh:hover .card-img-top {
+    transform: scale(1.1);
+  }
+  .cardh{
+    border-radius:55%;
+  } */
+
